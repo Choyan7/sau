@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 3, 2015, 1:49:07 PM
+    Author     : Himangshu
+*/
+
+
+
+
+#myCarousel {   
+    width: 100%;
+    max-width:550px;
+    max-height: 260px;
+    overflow:hidden;
+    margin:0px auto;
+    color:black;
+    padding: 0px;
+}
+
+
+a.carousel-control {
+    top: 45%;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #222;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+a.carousel-control.right {
+    right:0px;
+}
+
+.carousel-caption {
+    text-align:center;
+    background:#000000;
+    opacity:0.6;
+    transition:opacity 0.3s;
+    padding:2px 2px 2px 2px;
+    margin-bottom: 0px;
+    border-radius:0px 0px 0 0;                                   
+    font-size: 12px;
+    width: 100%;
+    left:0%;
+    right:0%;
+    border: 0px solid red;
+    bottom:0px;
+    overflow: hidden;
+     text-shadow: 1px 0px 0px #001d70;
+     color: #ffffff; 
+     font-weight: bold;
+}
+
+.carousel-caption > h4,p{
+   
+   
+}
+
+
+.item.active:hover > .carousel-caption {
+    opacity:0.8;
+}
+ol.carousel-indicators {
+    top:0px;
+    left:52px;
+    display:inline-block;
+    height:16px;
+
+
+}
+.carousel-indicators li {
+    border-color:#888;
+    opacity:0.6;
+    border-width:5px;
+    width:8px;
+    height:8px;
+}
+.carousel-indicators li.active {
+    width:8px;
+    height:8px;
+    border-color: blue;
+}
+.carousel-indicators li:hover {
+    opacity:1;
+}
+
+
+
+
+@media only screen and (max-width: 766px) {
+
+    a.carousel-control {
+        top: 45%;
+        left: 8px;
+        width: 25px;
+        height: 25px;
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 20px;
+        color: #fff;
+        text-align: center;
+        background: #222;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        opacity: 0.5;
+    }
+
+    .carousel-caption {
+        text-align:center;
+        background:#111;
+        opacity:0.5;
+        transition:opacity 0.3s;
+        padding:0px;
+        margin-bottom: 0px;
+        border-radius:0px 0px 0 0;                                   
+        font-size: 12px;
+        width: 100%;
+        left:0%;
+        right:0%;
+        bottom:0;
+    }
+
+    .carousel-inner >.item > img,
+    .carousel-inner >.item.active > img{
+        width:100%;
+    }
+}
+
+.carousel-inner >.item > img,
+.carousel-inner >.item.active > img{
+    width:100%;
+}
+
+@media only screen and (min-width: 766px) {
+    .carousel-inner >.item.active > img{
+        width:550px;
+        height: 260px;
+    }
+
+    #myCarousel {        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+        margin-bottom:auto;
+        overflow:show;
+    }
+}
+
+

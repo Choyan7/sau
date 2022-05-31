@@ -1,0 +1,76 @@
+.banner_row{
+    padding:0px;
+    margin:0px;
+    border: 0px solid red;
+    background-color: #ffffff;
+}
+
+.logo {
+    position:relative;
+    padding:0px;
+    margin:0px;
+}
+
+
+.admission_link_box{
+     padding: 0px 0px 4px 0px;
+    font-family:  Arial,Helvetica, Sans-serif;
+    font-size: 12px;
+    white-space: normal;
+    font-weight: normal;
+    display:box;
+}
+
+
+
+.email_box_content{
+    padding:0px;
+    margin:0px;
+}
+
+
+
+.logo img {
+    width: 100% \9; /*Force IE10 and below to size SVG images correctly*/
+    max-width: 100%;
+}
+
+.email_box{
+    min-height: 60px;
+    max-width: 100%;
+    padding:0px;
+    margin:0px;
+}
+
+.email_icon_box{
+  padding-left: 20px;
+}
+
+
+.search_input_box{
+    max-width: 200px;
+    padding-right: 5px;
+    float:right;
+}
+/*END All Heder (not all)*/
+@media only screen and (max-width: 800px) {
+    .email_icon_box{
+        padding: 0px 0px 0px 20px; 
+    }
+
+    .search_input_box{
+        max-width: 200px;
+        padding-right: 0px;
+    }
+}
+
+
+
+.logo_r{
+    background-repeat:no-repeat;
+    width: 100% \9; /*Force IE10 and below to size SVG images correctly*/
+    max-width: 100%;
+    padding:0px;
+    margin:0px;
+}
+

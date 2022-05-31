@@ -1,0 +1,61 @@
+/*carousel*/
+
+.cursoral_mission_vission{
+    background-color: #EFF4FA;
+    display: box;
+    float: left;
+    
+}
+
+
+/*Mission Vission start*/
+
+.mission-vission{
+    min-height: 140px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px;
+    color: #122a87; 
+    line-height: 16px;
+}
+
+.mission-vission > h5 {
+    margin: 0px;
+    padding:2px 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #122a87;
+}
+
+.mission-vission > .mission-vission-txt{
+    text-align: justify;
+    width: 100%;
+    padding:0px;    
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.mission-vission > .mission-vission-txt > p{
+    color: #15589b;
+}
+
+
+@media (min-width: 800px) {
+    .cursoral_mission_vission{
+        min-height: 300px;
+        margin: auto auto;
+    }
+
+    .mission-vission{
+        height: 140px;
+        width: 92%;
+
+    }
+    
+     .mission_right_pull{
+         margin-left: 40px;
+         width: 83%;
+    }
+
+
+}

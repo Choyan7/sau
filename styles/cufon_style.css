@@ -1,0 +1,131 @@
+cufon{
+    text-indent:0!important;
+}
+
+h1.cufon-active,
+h2.cufon-active,
+h3.cufon-active,
+h4.cufon-active,
+h5.cufon-active,
+h6.cufon-active {
+    font-weight: bold;
+    padding: 0 2px;
+    margin:0px;
+}
+
+h5.coufon_vc_welcome{
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: central;
+
+}
+
+
+
+h5.cufon-active{
+    font-size: 16px;
+}
+
+.cufon_color_brown{
+    color:#F48200;
+}
+.cufon_color_navyblue{
+    color:#1C4698;
+}
+
+.cufon_color_white{
+    color:#FFFFFF;
+}
+
+.cufon_border_underline{
+    border-bottom: 2px solid #1C4698;
+    margin-bottom:5px;
+}
+
+.cufon-float-left{
+    float:left;
+}
+
+
+/*Mission Vission*/
+.cufon-mission-vission-vb{
+    height: 40px;
+    line-height: 40px;
+    vertical-align: bottom;
+    padding: 0px;
+    margin:0px;
+}
+
+.cufon-mission-vission-vm{
+    height: 40px;
+    line-height: 40px;
+    padding: 0px;
+    margin:0px;
+}
+
+
+/*Notice*/
+.coufon_notice_header{
+    float:left;
+    border: 0px solid red;
+    margin:0px 0px 0px 10px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: central;
+}
+
+.cufon_faculty_icon{
+    float: left;   
+    display: box;
+    padding: 5px 0px 5px 5px;
+}
+
+
+.notice_board_icon{
+    float: left;   
+    display: box;
+    padding: 5px 0px 5px 5px;
+}
+
+.cufon_faculty_icon > img{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+h2.cufon_faculty{
+    height: 30px;
+    line-height: 30px;
+    vertical-align: central;
+}
+
+
+.notice_board_icon > img{
+    max-height: 60px;
+    max-width: 60px;
+
+}
+
+.cupon_header_box{
+    float:left;
+    display: box;
+    padding: 5px 0px 5px 10px;
+    margin:0px;
+}
+
+.cufon_video{
+    height: 40px;
+    line-height: 40px;
+    vertical-align: central;
+    display: box;
+}
+
+.facilities_header{
+    padding:0px;
+    margin:0px;
+}
+
+
+
+
+
